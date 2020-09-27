@@ -27,27 +27,27 @@ int main(void) {
   {
     case 1:
       ans = en1+en2;
-      printf("Anser is : %.3f + %.3f = %.3f",en1,en2,ans);
+      printf("Anwser is : %.3f + %.3f = %.3f",en1,en2,ans);
       break;
     case 2:
       ans = en1-en2;
-      printf("Anser is : %.3f - %.3f = %.3f",en1,en2,ans);
+      printf("Anwser is : %.3f - %.3f = %.3f",en1,en2,ans);
       break;
     case 3:
       ans = en1*en2;
-      printf("Anser is : %.3f * %.3f = %.3f",en1,en2,ans);
+      printf("Anwser is : %.3f * %.3f = %.3f",en1,en2,ans);
       break;
     case 4: 
       ans = en1/en2;
         if(ans==0)
           printf("Divide by Zero!!!");
         else
-          printf("Anser is : %.3f / %.3f = %.3f",en1,en2,ans);
+          printf("Anwser is : %.3f / %.3f = %.3f",en1,en2,ans);
       
         break;
     case 5:
       er = m%n;
-      printf("Anser is : %d %% %d = %d",m,n,er);
+      printf("Anwser is : %d %% %d = %d",m,n,er);
         break;
   }
   return 0;
