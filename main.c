@@ -39,7 +39,7 @@ int main(void) {
       break;
     case 4: 
       ans = en1/en2;
-        if(ans==0)
+        if(en2==0)
           printf("Divide by Zero!!!");
         else
           printf("Anwser is : %.3f / %.3f = %.3f",en1,en2,ans);
